@@ -6,13 +6,13 @@ Graphica makes building desktop applications incredibly easy. No complex setup, 
 
 ## Why Graphica?
 
-✨ **Simple Syntax** - Create widgets in one line with intuitive parameters
+**Simple Syntax** - Create widgets in one line with intuitive parameters
 
-🚀 **Fast Development** - Build complete applications in minutes, not hours
+**Fast Development** - Build complete applications in minutes, not hours
 
-📚 **Easy to Learn** - If you know basic Python, you already know Graphica
+**Easy to Learn** - If you know basic Python, you already know Graphica
 
-🎨 **Clean Code** - Your GUI code is readable and maintainable
+**Clean Code** - Your GUI code is readable and maintainable
 
 ## Quick Example
 
@@ -54,21 +54,4 @@ Ready to build something amazing? Head over to the [Installation Guide](getting-
 
 ## Philosophy
 
-Graphica was designed with one goal: **make GUI development as simple as possible**. We believe that:
-
-- GUI code should be readable like a story
-- Creating interfaces shouldn't require mastering complex frameworks
-- Simple tasks should require simple code
-- Python beginners should be able to build real applications
-
-## Community
-
-Found a bug? Have a feature request? Want to contribute?
-
-- Report issues on [GitHub Issues](https://github.com/yourusername/graphica/issues)
-- Contribute on [GitHub](https://github.com/yourusername/graphica)
-- Share your projects with the community!
-
----
-
-*Built with ❤️ for Python developers everywhere*
+Graphica was designed with one goal: **make GUI development as simple as possible**.
