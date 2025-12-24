@@ -1,6 +1,6 @@
 # Calculator Example
 
-A fully functional calculator built with Graphica demonstrating button handling, state management, and user interaction.
+A fully functional calculator built with CocoaGUI demonstrating button handling, state management, and user interaction.
 
 ## Layout
 
@@ -27,10 +27,10 @@ A fully functional calculator built with Graphica demonstrating button handling,
 ```python
 """
 Simple Calculator Application
-Using the Graphica GUI Library
+Using the CocoaGUI GUI Library
 """
 
-import Graphica as gui
+import CocoaGUI as gui
 
 # Create the main window
 app = gui.Window("Simple Calculator", width=350, height=450)
@@ -149,7 +149,7 @@ gui.Button(app, "=", command=calculate, x=175, y=300)
 gui.Button(app, "Clear", command=clear_display, x=25, y=360)
 
 # Info label
-gui.Label(app, "Created with Graphica GUI Library", x=60, y=415, size=10)
+gui.Label(app, "Created with CocoaGUI GUI Library", x=60, y=415, size=10)
 
 # Run the application
 app.run()

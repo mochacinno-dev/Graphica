@@ -1,23 +1,23 @@
-# Welcome to Graphica
+# Welcome to CocoaGUI
 
 **The simplest Python GUI library ever created.**
 
-Graphica makes building desktop applications incredibly easy. No complex setup, no confusing APIs - just clean, intuitive Python code that anyone can understand.
+CocoaGUI makes building desktop applications incredibly easy. No complex setup, no confusing APIs - just clean, intuitive Python code that anyone can understand.
 
-## Why Graphica?
+## Why Cocoa?
 
 **Simple Syntax** - Create widgets in one line with intuitive parameters
 
 **Fast Development** - Build complete applications in minutes, not hours
 
-**Easy to Learn** - If you know basic Python, you already know Graphica
+**Easy to Learn** - If you know basic Python, you already know CocoaGUI
 
 **Clean Code** - Your GUI code is readable and maintainable
 
 ## Quick Example
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 # Create a window
 app = gui.Window("My App", width=400, height=300)
@@ -54,4 +54,4 @@ Ready to build something amazing? Head over to the [Installation Guide](getting-
 
 ## Philosophy
 
-Graphica was designed with one goal: **make GUI development as simple as possible**.
+CocoaGUI was designed with one goal: **make GUI development as simple as possible**.

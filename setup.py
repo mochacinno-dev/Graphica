@@ -1,27 +1,27 @@
 from setuptools import setup, find_packages
 
-# Read README for long description
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="graphica",
+    name="cocoagui",
     version="1.0.0",
     author="Camila 'Mocha' Rose",
     author_email="rblossom.dev@gmail.com",
     description="The simplest Python GUI library - create beautiful desktop applications with minimal code",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/mochacinno-dev/Graphica",
+    url="https://github.com/yourusername/cocoagui",
     project_urls={
-        "Bug Tracker": "https://github.com/mochacinno-dev/Graphica/issues",
-        "Documentation": "https://mochacinno-dev.github.io/Graphica",
-        "Source Code": "https://github.com/mochacinno-dev/Graphica",
+        "Bug Tracker": "https://github.com/yourusername/cocoagui/issues",
+        "Documentation": "https://yourusername.github.io/cocoagui",
+        "Source Code": "https://github.com/yourusername/cocoagui",
     },
-    packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
+        "Topic :: Software Development :: User Interfaces",
+        "Topic :: Software Development :: Libraries :: Python Modules",
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.6",
@@ -32,20 +32,15 @@ setup(
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3.12",
         "Operating System :: OS Independent",
-        "Topic :: Software Development :: User Interfaces",
+        "Natural Language :: English",
     ],
+    packages=find_packages(),
+    py_modules=["CocoaGUI"],
     python_requires=">=3.6",
     install_requires=[
-        # Graphica has no external dependencies!
-        # tkinter comes with Python
+        # tkinter comes with Python, no dependencies needed!
     ],
-    extras_require={
-        "dev": [
-            "pytest>=7.0",
-            "black>=22.0",
-            "flake8>=4.0",
-        ],
-    },
-    keywords="gui tkinter desktop ui interface simple easy",
+    keywords="gui tkinter ui desktop simple easy beginner-friendly",
     license="MIT",
+    include_package_data=True,
 )

@@ -1,10 +1,10 @@
 # Layout & Positioning
 
-Graphica uses absolute positioning with x and y coordinates. While this is simpler than complex layout systems, it requires some planning to create organized interfaces.
+CocoaGUI uses absolute positioning with x and y coordinates. While this is simpler than complex layout systems, it requires some planning to create organized interfaces.
 
 ## Understanding Coordinates
 
-Graphica positions widgets using pixel coordinates from the top-left corner:
+CocoaGUI positions widgets using pixel coordinates from the top-left corner:
 
 ```
 (0,0) ────────────────────────► X-axis
@@ -23,7 +23,7 @@ Y-axis
 ## Basic Positioning
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Position Demo", width=400, height=300)
 
@@ -49,7 +49,7 @@ app.run()
 Place widgets in a vertical column:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Vertical Stack", width=400, height=350)
 
@@ -78,7 +78,7 @@ app.run()
 Place widgets side-by-side:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Horizontal Row", width=500, height=200)
 
@@ -105,7 +105,7 @@ app.run()
 Create a grid of widgets:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Grid Layout", width=450, height=400)
 
@@ -131,7 +131,7 @@ app.run()
 Labels on the left, inputs on the right:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Form Layout", width=450, height=400)
 
@@ -167,7 +167,7 @@ app.run()
 Sidebar on the left, main content on the right:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Sidebar Layout", width=700, height=500)
 
@@ -194,7 +194,7 @@ app.run()
 ### Header-Body-Footer Layout
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Three Section Layout", width=600, height=500)
 
@@ -271,7 +271,7 @@ gui.Label(app, text, x=x, y=100, size=font_size)
 ### Example with Good Spacing
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Good Spacing", width=450, height=350)
 
@@ -309,12 +309,12 @@ app.run()
 
 ## Responsive Design Workarounds
 
-Graphica uses fixed positioning, but you can make layouts more flexible:
+CocoaGUI uses fixed positioning, but you can make layouts more flexible:
 
 ### Calculate Positions from Window Size
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 width = 600
 height = 400
@@ -341,7 +341,7 @@ app.run()
 ### Use Variables for Maintainability
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Maintainable Layout", width=500, height=400)
 
@@ -433,7 +433,7 @@ gui.Button(app, "OK", command=None, x=x, y=y)
 Create widgets in loops with calculated positions:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Dynamic Layout", width=600, height=400)
 

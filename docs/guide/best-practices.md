@@ -1,6 +1,6 @@
 # Best Practices
 
-This guide covers proven patterns and techniques for building great Graphica applications.
+This guide covers proven patterns and techniques for building great CocoaGUI applications.
 
 ## Code Organization
 
@@ -9,7 +9,7 @@ This guide covers proven patterns and techniques for building great Graphica app
 Begin with a single file. Don't overcomplicate:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 # Create window
 app = gui.Window("My App", width=400, height=300)
@@ -26,7 +26,7 @@ app.run()
 Define layout values as constants:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 # Window configuration
 WINDOW_WIDTH = 600
@@ -52,7 +52,7 @@ app.run()
 Keep related functionality together:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Task Manager", width=500, height=400)
 
@@ -86,7 +86,7 @@ app.run()
 ### Use Classes for Complex Apps
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 class TodoApp:
     def __init__(self):
@@ -148,7 +148,7 @@ gui.Button(app, "Open Document", command=open_doc, x=125, y=150)
 Guide users' attention with size and position:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Visual Hierarchy", width=500, height=400)
 
@@ -176,7 +176,7 @@ app.run()
 Always let users know what's happening:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Feedback Example", width=450, height=300)
 
@@ -212,7 +212,7 @@ app.run()
 Maintain consistent spacing, sizes, and alignment:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 # Define style constants
 TITLE_SIZE = 16
@@ -248,7 +248,7 @@ app.run()
 Check input as soon as possible:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Validation", width=400, height=300)
 
@@ -305,7 +305,7 @@ gui.alert("Email must contain an @ symbol and domain (e.g., user@example.com)", 
 Guide users toward valid input:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Guided Input", width=450, height=300)
 
@@ -335,7 +335,7 @@ app.run()
 Wrap risky operations:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Safe File Operations", width=500, height=300)
 
@@ -397,7 +397,7 @@ def save_data():
 For long operations, provide feedback:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Processing", width=400, height=200)
 

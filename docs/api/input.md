@@ -59,7 +59,7 @@ input_field.clear()
 ### Basic Input
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Basic Input", width=400, height=200)
 
@@ -78,7 +78,7 @@ app.run()
 ### Input with Default Value
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Preset Input", width=400, height=200)
 
@@ -97,7 +97,7 @@ app.run()
 ### Form with Multiple Inputs
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Registration Form", width=450, height=400)
 
@@ -141,7 +141,7 @@ app.run()
 ### Search Box
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Search", width=500, height=250)
 
@@ -165,7 +165,7 @@ app.run()
 ### Input Validation
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Age Validator", width=400, height=250)
 
@@ -200,10 +200,10 @@ app.run()
 
 ### Password-style Input (Workaround)
 
-While Graphica's Input doesn't have built-in password masking, you can guide users:
+While CocoaGUI's Input doesn't have built-in password masking, you can guide users:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Login", width=400, height=250)
 
@@ -231,7 +231,7 @@ app.run()
 ### Calculator Input
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Simple Calculator", width=400, height=300)
 
@@ -275,7 +275,7 @@ app.run()
 ### Unit Converter
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Temperature Converter", width=400, height=300)
 

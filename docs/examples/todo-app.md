@@ -15,10 +15,10 @@ A complete task management application showing data structures, state management
 ```python
 """
 Todo List Application
-A complete task management app built with Graphica
+A complete task management app built with CocoaGUI
 """
 
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Todo List", width=550, height=600)
 

@@ -1,4 +1,4 @@
-site_name: Graphica 
+site_name: Cocoa GUI 
 site_description: The simplest Python GUI library - create beautiful desktop applications with minimal code
 site_author: Camila "Mocha" Rose
 site_url: https://github.com/mochacinno-dev/Graphica
@@ -77,4 +77,4 @@ extra:
       link: https://www.python.org
 
 
-copyright: Copyright &copy; 2024 Graphica
+copyright: Copyright &copy; 2024 CoffeeShop Development.

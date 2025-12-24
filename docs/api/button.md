@@ -41,7 +41,7 @@ button.move(100, 50)
 ### Basic Button
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Button Demo", width=300, height=200)
 
@@ -56,7 +56,7 @@ app.run()
 ### Button with Alert
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Alert Demo", width=300, height=200)
 
@@ -71,7 +71,7 @@ app.run()
 ### Multiple Buttons
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Multiple Buttons", width=400, height=300)
 
@@ -105,7 +105,7 @@ app.run()
 For simple operations, use lambda functions:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Lambda Demo", width=300, height=200)
 
@@ -119,7 +119,7 @@ app.run()
 ### Dynamic Button Movement
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Moving Button", width=400, height=300)
 
@@ -140,7 +140,7 @@ app.run()
 ### Button with Confirmation
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Delete Confirmation", width=400, height=250)
 
@@ -176,7 +176,7 @@ app.run()
 ### Disable/Enable Pattern
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Enable/Disable", width=400, height=250)
 
@@ -197,7 +197,7 @@ app.run()
 ### Submit Form Pattern
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Form Submit", width=400, height=300)
 

@@ -1,6 +1,6 @@
 # Your First App
 
-Let's build a complete todo list application from scratch. This tutorial will teach you everything you need to know about building real Graphica applications.
+Let's build a complete todo list application from scratch. This tutorial will teach you everything you need to know about building real CocoaGUI applications.
 
 ## What We're Building
 
@@ -16,7 +16,7 @@ A todo list app where users can:
 Start with a new file called `todo_app.py`:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Todo List", width=550, height=600)
 
@@ -30,7 +30,7 @@ You should see an empty window. Perfect!
 ## Step 2: Add the Title
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Todo List", width=550, height=600)
 
@@ -43,7 +43,7 @@ app.run()
 ## Step 3: Add Input for New Tasks
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Todo List", width=550, height=600)
 
@@ -59,7 +59,7 @@ app.run()
 ## Step 4: Add the Display Area
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Todo List", width=550, height=600)
 
@@ -83,7 +83,7 @@ Looking good! Now for the functionality.
 Add a list to store our tasks:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Todo List", width=550, height=600)
 
@@ -104,7 +104,7 @@ app.run()
 Create a function to add new tasks:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Todo List", width=550, height=600)
 
@@ -153,7 +153,7 @@ app.run()
 ## Step 7: Add the Add Button
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Todo List", width=550, height=600)
 
@@ -201,7 +201,7 @@ Try it out! You can now add tasks to your list.
 Add functionality to complete tasks:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Todo List", width=550, height=600)
 
@@ -268,7 +268,7 @@ app.run()
 ## Step 9: Delete Completed Tasks
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Todo List", width=550, height=600)
 
@@ -351,7 +351,7 @@ app.run()
 Final touch - show some statistics:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Todo List", width=550, height=600)
 
@@ -446,10 +446,10 @@ Here's the final, complete code:
 ```python
 """
 Todo List Application
-A complete task management app built with Graphica
+A complete task management app built with CocoaGUI
 """
 
-import Graphica as gui
+import CocoaGUI as gui
 
 # Create the main window
 app = gui.Window("Todo List", width=550, height=600)

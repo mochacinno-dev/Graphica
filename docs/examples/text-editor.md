@@ -13,10 +13,10 @@ A complete text editor application demonstrating file operations, real-time upda
 ## Complete Code
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 from tkinter import filedialog
 
-app = gui.Window("Graphica Text Editor", width=800, height=600)
+app = gui.Window("CocoaGUI Text Editor", width=800, height=600)
 
 # Status bar
 status_label = gui.Label(app, "New Document - Ready", x=10, y=10, size=10)
@@ -130,8 +130,8 @@ def clear_text():
 def about():
     """Show about dialog"""
     gui.alert(
-        "Graphica Text Editor v1.0\n\n"
-        "A simple text editor built with Graphica.\n\n"
+        "CocoaGUI Text Editor v1.0\n\n"
+        "A simple text editor built with CocoaGUI.\n\n"
         "Features:\n"
         "• Create, open, and save text files\n"
         "• Real-time statistics\n"
@@ -199,7 +199,7 @@ This pattern is useful for any real-time updates in your app.
 
 ### File Dialogs
 
-Graphica uses tkinter's file dialogs for file operations:
+CocoaGUI uses tkinter's file dialogs for file operations:
 
 ```python
 from tkinter import filedialog
@@ -354,7 +354,7 @@ def add_to_recent(filename):
 
 ### Keyboard Shortcuts
 
-While Graphica doesn't have built-in keyboard shortcut support, tkinter does:
+While CocoaGUI doesn't have built-in keyboard shortcut support, tkinter does:
 
 ```python
 app.root.bind('<Control-s>', lambda e: save_file())

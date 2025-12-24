@@ -1,10 +1,10 @@
-# About Graphica
+# About CocoaGUI
 
-Graphica is a Python GUI library designed to make desktop application development accessible to everyone.
+CocoaGUI is a Python GUI library designed to make desktop application development accessible to everyone.
 
 ## The Story
 
-GUI programming has a reputation for being complicated. Complex frameworks, verbose syntax, and steep learning curves have kept many developers from building desktop applications. Graphica was created to change that.
+GUI programming has a reputation for being complicated. Complex frameworks, verbose syntax, and steep learning curves have kept many developers from building desktop applications. CocoaGUI was created to change that.
 
 The goal was simple: create a library where building a GUI feels as natural as writing any other Python code. No complicated layouts, no confusing inheritance hierarchies, no hundred-page manuals. Just straightforward, readable code that does what you expect.
 
@@ -12,7 +12,7 @@ The goal was simple: create a library where building a GUI feels as natural as w
 
 ### Simplicity First
 
-Every design decision in Graphica prioritizes simplicity over flexibility. The library intentionally does less so that you can do more.
+Every design decision in CocoaGUI prioritizes simplicity over flexibility. The library intentionally does less so that you can do more.
 
 ```python
 # One line to create a button
@@ -23,7 +23,7 @@ No classes to inherit, no complex configuration, no surprises.
 
 ### Readable Code
 
-Graphica code reads like instructions for a human, not just a computer:
+CocoaGUI code reads like instructions for a human, not just a computer:
 
 ```python
 # You can understand what this does without documentation
@@ -34,11 +34,11 @@ gui.Button(app, "Submit", command=submit, x=180, y=150)
 
 ### Beginner Friendly
 
-Graphica is designed for Python beginners. If you understand functions and variables, you can build GUI applications.
+CocoaGUI is designed for Python beginners. If you understand functions and variables, you can build GUI applications.
 
-## What Graphica Is
+## What CocoaGUI Is
 
-**Graphica is for:**
+**CocoaGUI is for:**
 
 - Learning GUI programming concepts
 - Building simple desktop tools quickly
@@ -57,9 +57,9 @@ Graphica is designed for Python beginners. If you understand functions and varia
 - Text editors
 - Personal organizers
 
-## What Graphica Isn't
+## What CocoaGUI Isn't
 
-Graphica makes trade-offs for simplicity. It's not designed for:
+CocoaGUI makes trade-offs for simplicity. It's not designed for:
 
 - Complex, production-grade applications
 - Advanced layout management
@@ -74,7 +74,7 @@ For those needs, consider tkinter directly, PyQt, or other specialized framework
 
 ### Built on tkinter
 
-Graphica is a wrapper around Python's built-in tkinter library. This means:
+CocoaGUI is a wrapper around Python's built-in tkinter library. This means:
 
 - **No external dependencies** - works out of the box with Python
 - **Cross-platform** - runs on Windows, macOS, and Linux
@@ -83,7 +83,7 @@ Graphica is a wrapper around Python's built-in tkinter library. This means:
 
 ### Absolute Positioning
 
-Unlike many GUI frameworks, Graphica uses absolute positioning with x/y coordinates. This:
+Unlike many GUI frameworks, CocoaGUI uses absolute positioning with x/y coordinates. This:
 
 - **Simplifies** the learning curve (no layout managers to learn)
 - **Makes positioning predictable** (you control exactly where things go)
@@ -91,7 +91,7 @@ Unlike many GUI frameworks, Graphica uses absolute positioning with x/y coordina
 
 ### Single-File Design
 
-Graphica is intentionally kept as a single file (`Graphica.py`). You can:
+CocoaGUI is intentionally kept as a single file (`CocoaGUI.py`). You can:
 
 - Drop it directly into your project
 - Understand the entire codebase
@@ -100,7 +100,7 @@ Graphica is intentionally kept as a single file (`Graphica.py`). You can:
 
 ## Project Status
 
-Graphica is a focused, stable project. It does what it's designed to do and doesn't try to do more.
+CocoaGUI is a focused, stable project. It does what it's designed to do and doesn't try to do more.
 
 **Current status:** Stable and feature-complete for its intended use cases.
 
@@ -110,7 +110,7 @@ Graphica is a focused, stable project. It does what it's designed to do and does
 
 ## Contributing
 
-Graphica is intentionally minimal, but improvements are welcome:
+CocoaGUI is intentionally minimal, but improvements are welcome:
 
 - **Bug fixes** - definitely report these
 - **Documentation improvements** - always appreciated
@@ -121,7 +121,7 @@ The goal is not to add features, but to make what exists work perfectly and be p
 
 ## License
 
-Graphica is released under the GNU General Public License v3.0 (GPL-3.0).
+CocoaGUI is released under the GNU General Public License v3.0 (GPL-3.0).
 
 This means:
 
@@ -136,17 +136,11 @@ See the [LICENSE](../LICENSE) file for full details.
 
 Created by **Camila "Mocha" Rose**
 
-Graphica was born from teaching Python to beginners and watching them struggle with existing GUI frameworks. It's built with love for simplicity and a deep respect for people just starting their programming journey.
-
-## Contact & Links
-
-- **GitHub:** [github.com/mochacinno-dev/Graphica](https://github.com/mochacinno-dev/Graphica)
-- **Issues:** Report bugs and request features on GitHub Issues
-- **Documentation:** You're reading it!
+CocoaGUI was born from teaching Python to beginners and watching them struggle with existing GUI frameworks. It's built with love for simplicity and a deep respect for people just starting their programming journey.
 
 ## Acknowledgments
 
-Graphica builds on the excellent work of:
+CocoaGUI builds on the excellent work of:
 
 - The Python Software Foundation and the tkinter developers
 - Everyone who makes beginner-friendly programming education possible
@@ -156,7 +150,7 @@ Graphica builds on the excellent work of:
 
 The best code is code that doesn't need to be written. The second best is code that anyone can read and understand.
 
-Graphica aims to be the second best.
+CocoaGUI aims to be the second best.
 
 ---
 

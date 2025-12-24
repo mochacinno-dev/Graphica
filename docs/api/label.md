@@ -52,11 +52,11 @@ label.move(150, 200)
 ### Basic Label
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Label Example", width=400, height=200)
 
-gui.Label(app, "Welcome to Graphica!", x=120, y=80, size=14)
+gui.Label(app, "Welcome to CocoaGUI!", x=120, y=80, size=14)
 
 app.run()
 ```
@@ -66,7 +66,7 @@ app.run()
 Labels really shine when you update them based on user actions:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Counter", width=300, height=200)
 
@@ -88,12 +88,12 @@ app.run()
 Use different sizes for hierarchy:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Welcome Screen", width=450, height=350)
 
 # Large title
-gui.Label(app, "Graphica Text Editor", x=100, y=30, size=20)
+gui.Label(app, "CocoaGUI Text Editor", x=100, y=30, size=20)
 
 # Medium subtitle
 gui.Label(app, "Simple. Fast. Powerful.", x=135, y=70, size=14)
@@ -112,7 +112,7 @@ app.run()
 Labels are great for showing status or feedback:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Login", width=400, height=300)
 
@@ -145,7 +145,7 @@ app.run()
 Labels help guide users through forms:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Contact Form", width=450, height=400)
 
@@ -173,7 +173,7 @@ app.run()
 Update labels in real-time:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 import time
 
 app = gui.Window("Timer", width=300, height=150)
@@ -197,10 +197,10 @@ app.run()
 
 ### Text Alignment
 
-While Graphica uses absolute positioning, you can calculate centered positions:
+While CocoaGUI uses absolute positioning, you can calculate centered positions:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Centered Text", width=400, height=200)
 
@@ -228,7 +228,7 @@ app.run()
 ### Loading Indicator
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Loading", width=300, height=150)
 
@@ -249,7 +249,7 @@ app.run()
 ### Validation Feedback
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Email Validator", width=400, height=200)
 
@@ -275,13 +275,13 @@ app.run()
 For multiple lines of text, consider using separate labels:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("About", width=400, height=300)
 
 gui.Label(app, "About This Application", x=110, y=30, size=16)
 gui.Label(app, "Version 1.0.0", x=155, y=70, size=11)
-gui.Label(app, "Created with Graphica", x=130, y=95, size=11)
+gui.Label(app, "Created with CocoaGUI", x=130, y=95, size=11)
 gui.Label(app, "© 2024 Your Name", x=145, y=120, size=10)
 
 app.run()

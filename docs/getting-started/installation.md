@@ -1,6 +1,6 @@
 # Installation
 
-Getting Graphica up and running is incredibly simple!
+Getting CocoaGUI up and running is incredibly simple!
 
 ## Requirements
 
@@ -9,7 +9,7 @@ Getting Graphica up and running is incredibly simple!
 
 ## Verify tkinter Installation
 
-Graphica uses tkinter, which is included with most Python installations. To verify you have it:
+CocoaGUI uses tkinter, which is included with most Python installations. To verify you have it:
 
 ```python
 python -m tkinter
@@ -17,31 +17,31 @@ python -m tkinter
 
 If a small window appears, you're good to go! If not, see the troubleshooting section below.
 
-## Installing Graphica
+## Installing CocoaGUI
 
 ### Method 1: Download the File
 
-1. Download `Graphica.py` from the [GitHub repository](https://github.com/yourusername/graphica)
+1. Download `CocoaGUI.py` from the [GitHub repository](https://github.com/yourusername/CocoaGUI)
 2. Place it in your project folder
-3. Import it: `import Graphica as gui`
+3. Import it: `import CocoaGUI as gui`
 
 That's it! No pip install needed.
 
 ### Method 2: Clone from GitHub
 
 ```bash
-git clone https://github.com/yourusername/graphica.git
-cd graphica
+git clone https://github.com/yourusername/CocoaGUI.git
+cd CocoaGUI
 ```
 
-Then copy `Graphica.py` to your project directory.
+Then copy `CocoaGUI.py` to your project directory.
 
 ### Method 3: Direct Import (Future)
 
 Once published to PyPI, you'll be able to:
 
 ```bash
-pip install graphica
+pip install CocoaGUI
 ```
 
 ## Verify Installation
@@ -49,10 +49,10 @@ pip install graphica
 Create a test file `test.py`:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Test", width=300, height=200)
-gui.Label(app, "Graphica works!", x=80, y=80, size=16)
+gui.Label(app, "CocoaGUI works!", x=80, y=80, size=16)
 app.run()
 ```
 
@@ -62,7 +62,7 @@ Run it:
 python test.py
 ```
 
-If a window appears with the text "Graphica works!", you're all set! 🎉
+If a window appears with the text "CocoaGUI works!", you're all set! 🎉
 
 ## Troubleshooting
 
@@ -97,4 +97,4 @@ If you already have Python installed, run the installer again and choose "Modify
 
 ## Next Steps
 
-Now that Graphica is installed, let's create your first app! Continue to the [Quick Start Guide](quickstart.md).
+Now that CocoaGUI is installed, let's create your first app! Continue to the [Quick Start Guide](quickstart.md).

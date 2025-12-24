@@ -59,7 +59,7 @@ textarea.clear()
 ### Basic TextArea
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Text Editor", width=600, height=400)
 
@@ -72,7 +72,7 @@ app.run()
 ### Simple Note-Taking App
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Quick Notes", width=600, height=450)
 
@@ -101,7 +101,7 @@ app.run()
 ### Character Counter
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Character Counter", width=600, height=450)
 
@@ -137,7 +137,7 @@ app.run()
 ### Text Transformation Tool
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Text Transformer", width=700, height=500)
 
@@ -175,7 +175,7 @@ app.run()
 ### Simple Journal Entry
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 from datetime import datetime
 
 app = gui.Window("Daily Journal", width=650, height=500)
@@ -218,7 +218,7 @@ app.run()
 ### Code Snippet Manager
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Code Snippets", width=700, height=550)
 
@@ -267,7 +267,7 @@ app.run()
 ### Markdown Preview (Simplified)
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Markdown Editor", width=800, height=600)
 
@@ -301,7 +301,7 @@ app.run()
 ### Chat Interface
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 from datetime import datetime
 
 app = gui.Window("Simple Chat", width=600, height=550)

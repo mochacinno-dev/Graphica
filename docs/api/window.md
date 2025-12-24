@@ -59,7 +59,7 @@ app.root.configure(bg='white')  # Change background color
 ### Basic Window
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("My App", width=500, height=400)
 app.run()
@@ -68,7 +68,7 @@ app.run()
 ### Custom Size Window
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 # Small window
 small_app = gui.Window("Small", width=300, height=200)
@@ -82,7 +82,7 @@ small_app.run()
 ### Window with Exit Confirmation
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Confirm Exit", width=400, height=300)
 
@@ -97,10 +97,10 @@ app.run()
 
 ### Multiple Windows (Not Recommended)
 
-While technically possible, Graphica is designed for single-window applications:
+While technically possible, CocoaGUI is designed for single-window applications:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 # This works but is not the intended use case
 app1 = gui.Window("Window 1", width=300, height=200)

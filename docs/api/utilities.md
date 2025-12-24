@@ -1,6 +1,6 @@
 # Utilities
 
-Graphica provides two utility functions for displaying dialog boxes: `alert()` for showing messages and `confirm()` for asking yes/no questions.
+CocoaGUI provides two utility functions for displaying dialog boxes: `alert()` for showing messages and `confirm()` for asking yes/no questions.
 
 ## alert()
 
@@ -24,7 +24,7 @@ Nothing. The function blocks until the user closes the dialog.
 ### Examples
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 # Simple alert
 gui.alert("Hello, World!")
@@ -58,7 +58,7 @@ result = gui.confirm(message, title="Confirm")
 ### Examples
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 # Simple confirmation
 if gui.confirm("Are you sure?"):
@@ -77,7 +77,7 @@ if gui.confirm("Delete this file?", "Confirm Delete"):
 ### Success Message
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Save Example", width=400, height=200)
 
@@ -93,7 +93,7 @@ app.run()
 ### Error Handling
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Error Example", width=400, height=250)
 
@@ -127,7 +127,7 @@ app.run()
 ### Delete Confirmation
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Delete Example", width=400, height=200)
 
@@ -147,7 +147,7 @@ app.run()
 ### Exit Confirmation
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Exit Confirmation", width=400, height=200)
 
@@ -165,7 +165,7 @@ app.run()
 ### Form Submission
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Submission Example", width=450, height=350)
 
@@ -198,7 +198,7 @@ app.run()
 ### Multi-step Process
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Wizard Example", width=450, height=250)
 
@@ -230,7 +230,7 @@ app.run()
 ### Information Display
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Information", width=400, height=200)
 
@@ -250,7 +250,7 @@ def show_about():
     about_text = """
 My Application v1.0
 
-Created with Graphica
+Created with CocoaGUI
 © 2024 Your Name
 
 All rights reserved.
@@ -266,7 +266,7 @@ app.run()
 ### Validation Chain
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Registration", width=450, height=350)
 

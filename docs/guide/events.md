@@ -1,6 +1,6 @@
 # Event Handling
 
-Event handling in Graphica is straightforward: you define functions and pass them to widgets as commands. When the user interacts with a widget, your function gets called.
+Event handling in CocoaGUI is straightforward: you define functions and pass them to widgets as commands. When the user interacts with a widget, your function gets called.
 
 ## Basic Event Handling
 
@@ -9,7 +9,7 @@ Event handling in Graphica is straightforward: you define functions and pass the
 The most common event is a button click:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Button Click", width=400, height=200)
 
@@ -37,7 +37,7 @@ gui.Button(app, "Click", command=on_click(), x=10, y=10)
 Event handlers typically need to get or set widget values:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Input Event", width=400, height=250)
 
@@ -63,7 +63,7 @@ app.run()
 Lambda functions let you pass arguments to event handlers:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Lambda Events", width=400, height=250)
 
@@ -86,7 +86,7 @@ app.run()
 ### Lambda with Widget Values
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Calculator", width=400, height=300)
 
@@ -127,7 +127,7 @@ app.run()
 For simple apps, global variables work fine:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Todo List", width=500, height=400)
 
@@ -160,7 +160,7 @@ app.run()
 For more complex apps, use a class:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 class CounterApp:
     def __init__(self):
@@ -217,7 +217,7 @@ app.run()
 Always confirm destructive actions:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Delete Example", width=400, height=200)
 
@@ -238,7 +238,7 @@ app.run()
 ### Validation Before Processing
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Form Validation", width=450, height=350)
 
@@ -277,7 +277,7 @@ app.run()
 ### Multi-Step Processes
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Multi-Step", width=450, height=300)
 
@@ -338,7 +338,7 @@ app.run()
 ### Toggle States
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Toggle Example", width=400, height=250)
 
@@ -369,7 +369,7 @@ app.run()
 Run a function repeatedly:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 from datetime import datetime
 
 app = gui.Window("Clock", width=300, height=150)
@@ -392,7 +392,7 @@ app.run()
 ### Countdown Timer
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Countdown", width=300, height=200)
 

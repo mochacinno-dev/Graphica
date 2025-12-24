@@ -57,7 +57,7 @@ checkbox.uncheck()
 ### Basic CheckBox
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("CheckBox Demo", width=400, height=200)
 
@@ -77,7 +77,7 @@ app.run()
 ### Pre-checked CheckBox
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Newsletter", width=400, height=200)
 
@@ -99,7 +99,7 @@ app.run()
 ### Settings Panel
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Application Settings", width=450, height=400)
 
@@ -137,7 +137,7 @@ app.run()
 ### Feature Selector
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Order Pizza", width=450, height=500)
 
@@ -200,7 +200,7 @@ app.run()
 ### Terms and Conditions
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Sign Up", width=500, height=400)
 
@@ -242,7 +242,7 @@ app.run()
 ### Filter Interface
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Product Filter", width=500, height=450)
 
@@ -308,7 +308,7 @@ app.run()
 ### Task List with Checkboxes
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Task List", width=450, height=450)
 
@@ -352,7 +352,7 @@ app.run()
 Control multiple checkboxes with one master checkbox:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Select All", width=400, height=350)
 
@@ -379,7 +379,7 @@ app.run()
 
 ### Mutually Exclusive Options (Radio Button Style)
 
-While Graphica doesn't have radio buttons, you can simulate them:
+While CocoaGUI doesn't have radio buttons, you can simulate them:
 
 ```python
 def select_option1():

@@ -1,10 +1,10 @@
 # Quick Start
 
-Let's build your first Graphica application in under 5 minutes!
+Let's build your first CocoaGUI application in under 5 minutes!
 
 ## The Basics
 
-Every Graphica app follows this simple pattern:
+Every CocoaGUI app follows this simple pattern:
 
 1. Create a Window
 2. Add widgets to the window
@@ -15,7 +15,7 @@ Every Graphica app follows this simple pattern:
 Create a file called `hello.py`:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 # Step 1: Create a window
 app = gui.Window("Hello World", width=400, height=200)
@@ -36,14 +36,14 @@ That's it! You've created your first GUI application.
 Let's make it interactive with a button:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Interactive Hello", width=400, height=200)
 
 label = gui.Label(app, "Click the button!", x=130, y=60, size=14)
 
 def on_click():
-    label.set("Hello, Graphica! 👋")
+    label.set("Hello, CocoaGUI! 👋")
 
 gui.Button(app, "Click Me", command=on_click, x=150, y=100)
 
@@ -57,7 +57,7 @@ When you click the button, the label text changes!
 Now let's get input from the user:
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Greeter", width=400, height=250)
 
@@ -131,7 +131,7 @@ my_label.set("New text")
 ### Pattern: Form with Validation
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Login Form", width=400, height=300)
 
@@ -159,7 +159,7 @@ app.run()
 ### Pattern: Counter App
 
 ```python
-import Graphica as gui
+import CocoaGUI as gui
 
 app = gui.Window("Counter", width=300, height=200)
 
