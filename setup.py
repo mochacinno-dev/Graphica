@@ -5,17 +5,17 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="cocoagui",
-    version="1.1.0",
+    version="1.2.0",
     author="Camila 'Mocha' Rose",
     author_email="rblossom.dev@gmail.com",
     description="The simplest Python GUI library - create beautiful desktop applications with minimal code",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/mochacinno-dev/Graphica",
+    url="https://github.com/mochacinno-dev/CocoaGUI",
     project_urls={
-        "Bug Tracker": "https://github.com/mochacinno-dev/Graphica/issues",
-        "Documentation": "https://mochacinno-dev.github.io/Graphica",
-        "Source Code": "https://github.com/mochacinno-dev/Graphica",
+        "Bug Tracker": "https://github.com/mochacinno-dev/CocoaGUI/issues",
+        "Documentation": "https://mochacinno-dev.github.io/CocoaGUI",
+        "Source Code": "https://github.com/mochacinno-dev/CocoaGUI",
     },
     classifiers=[
         "Development Status :: 4 - Beta",

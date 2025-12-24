@@ -1,7 +1,7 @@
 site_name: Cocoa GUI 
 site_description: The simplest Python GUI library - create beautiful desktop applications with minimal code
 site_author: Camila "Mocha" Rose
-site_url: https://github.com/mochacinno-dev/Graphica
+site_url: https://github.com/mochacinno-dev/CocoaGUI
 
 theme:
   name: material
@@ -72,9 +72,9 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/mochacinno-dev/Graphica
+      link: https://github.com/mochacinno-dev/CocoaGUI
     - icon: fontawesome/brands/python
       link: https://www.python.org
 
 
-copyright: Copyright &copy; 2024 CoffeeShop Development.
+copyright: Copyright &copy; 2026 CoffeeShop Development.

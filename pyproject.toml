@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cocoagui"
-version = "1.1.0"
+version = "1.2.0"
 description = "The simplest Python GUI library - create beautiful desktop applications with minimal code"
 readme = "README.md"
 authors = [
@@ -34,10 +34,10 @@ keywords = ["gui", "tkinter", "ui", "desktop", "simple", "easy", "beginner-frien
 requires-python = ">=3.6"
 
 [project.urls]
-Homepage = "https://github.com/mochacinno-dev/Graphica"
-Documentation = "https://mochacinno-dev.github.io/Graphica"
-Repository = "https://github.com/mochacinno-dev/Graphica"
-"Bug Tracker" = "https://github.com/mochacinno-dev/Graphica/issues"
+Homepage = "https://github.com/mochacinno-dev/CocoaGUI"
+Documentation = "https://mochacinno-dev.github.io/CocoaGUI"
+Repository = "https://github.com/mochacinno-dev/CocoaGUI"
+"Bug Tracker" = "https://github.com/mochacinno-dev/CocoaGUI/issues"
 
 [tool.setuptools]
 py-modules = ["CocoaGUI"]

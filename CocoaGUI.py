@@ -1,6 +1,19 @@
+####################################
+# CocoaGUI - A simple GUI library
+# Developer: Camila "Mocha" Rose
+# Version: 1.2.0
+# By: CoffeeShop Development
+####################################
+
+####################################
+# IMPORTS
+####################################
 import tkinter as tk
 from tkinter import messagebox
 
+####################################
+# CLASSES
+####################################
 class Window:
     """Main window class for the GUI"""
     def __init__(self, title="GUI Window", width=400, height=300):
@@ -114,8 +127,9 @@ def confirm(message, title="Confirm"):
     """Show a confirmation dialog, returns True/False"""
     return messagebox.askyesno(title, message)
 
-
-# Example usage
+####################################
+# EXAMPLE USAGE
+####################################
 if __name__ == "__main__":
     # Create window
     win = Window("My GUI App", 500, 400)
