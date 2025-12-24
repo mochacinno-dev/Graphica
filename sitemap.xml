@@ -1,75 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://github.com/mochacinno-dev/Graphica/</loc>
+         <loc>https://github.com/mochacinno-dev/CocoaGUI/</loc>
          <lastmod>2025-12-24</lastmod>
     </url>
     <url>
-         <loc>https://github.com/mochacinno-dev/Graphica/about/</loc>
+         <loc>https://github.com/mochacinno-dev/CocoaGUI/about/</loc>
          <lastmod>2025-12-24</lastmod>
     </url>
     <url>
-         <loc>https://github.com/mochacinno-dev/Graphica/api/button/</loc>
+         <loc>https://github.com/mochacinno-dev/CocoaGUI/api/button/</loc>
          <lastmod>2025-12-24</lastmod>
     </url>
     <url>
-         <loc>https://github.com/mochacinno-dev/Graphica/api/checkbox/</loc>
+         <loc>https://github.com/mochacinno-dev/CocoaGUI/api/checkbox/</loc>
          <lastmod>2025-12-24</lastmod>
     </url>
     <url>
-         <loc>https://github.com/mochacinno-dev/Graphica/api/input/</loc>
+         <loc>https://github.com/mochacinno-dev/CocoaGUI/api/input/</loc>
          <lastmod>2025-12-24</lastmod>
     </url>
     <url>
-         <loc>https://github.com/mochacinno-dev/Graphica/api/label/</loc>
+         <loc>https://github.com/mochacinno-dev/CocoaGUI/api/label/</loc>
          <lastmod>2025-12-24</lastmod>
     </url>
     <url>
-         <loc>https://github.com/mochacinno-dev/Graphica/api/textarea/</loc>
+         <loc>https://github.com/mochacinno-dev/CocoaGUI/api/textarea/</loc>
          <lastmod>2025-12-24</lastmod>
     </url>
     <url>
-         <loc>https://github.com/mochacinno-dev/Graphica/api/utilities/</loc>
+         <loc>https://github.com/mochacinno-dev/CocoaGUI/api/utilities/</loc>
          <lastmod>2025-12-24</lastmod>
     </url>
     <url>
-         <loc>https://github.com/mochacinno-dev/Graphica/api/window/</loc>
+         <loc>https://github.com/mochacinno-dev/CocoaGUI/api/window/</loc>
          <lastmod>2025-12-24</lastmod>
     </url>
     <url>
-         <loc>https://github.com/mochacinno-dev/Graphica/examples/calculator/</loc>
+         <loc>https://github.com/mochacinno-dev/CocoaGUI/examples/calculator/</loc>
          <lastmod>2025-12-24</lastmod>
     </url>
     <url>
-         <loc>https://github.com/mochacinno-dev/Graphica/examples/text-editor/</loc>
+         <loc>https://github.com/mochacinno-dev/CocoaGUI/examples/text-editor/</loc>
          <lastmod>2025-12-24</lastmod>
     </url>
     <url>
-         <loc>https://github.com/mochacinno-dev/Graphica/examples/todo-app/</loc>
+         <loc>https://github.com/mochacinno-dev/CocoaGUI/examples/todo-app/</loc>
          <lastmod>2025-12-24</lastmod>
     </url>
     <url>
-         <loc>https://github.com/mochacinno-dev/Graphica/getting-started/first-app/</loc>
+         <loc>https://github.com/mochacinno-dev/CocoaGUI/getting-started/first-app/</loc>
          <lastmod>2025-12-24</lastmod>
     </url>
     <url>
-         <loc>https://github.com/mochacinno-dev/Graphica/getting-started/installation/</loc>
+         <loc>https://github.com/mochacinno-dev/CocoaGUI/getting-started/installation/</loc>
          <lastmod>2025-12-24</lastmod>
     </url>
     <url>
-         <loc>https://github.com/mochacinno-dev/Graphica/getting-started/quickstart/</loc>
+         <loc>https://github.com/mochacinno-dev/CocoaGUI/getting-started/quickstart/</loc>
          <lastmod>2025-12-24</lastmod>
     </url>
     <url>
-         <loc>https://github.com/mochacinno-dev/Graphica/guide/best-practices/</loc>
+         <loc>https://github.com/mochacinno-dev/CocoaGUI/guide/best-practices/</loc>
          <lastmod>2025-12-24</lastmod>
     </url>
     <url>
-         <loc>https://github.com/mochacinno-dev/Graphica/guide/events/</loc>
+         <loc>https://github.com/mochacinno-dev/CocoaGUI/guide/events/</loc>
          <lastmod>2025-12-24</lastmod>
     </url>
     <url>
-         <loc>https://github.com/mochacinno-dev/Graphica/guide/layout/</loc>
+         <loc>https://github.com/mochacinno-dev/CocoaGUI/guide/layout/</loc>
          <lastmod>2025-12-24</lastmod>
     </url>
 </urlset>
